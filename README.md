@@ -1,5 +1,13 @@
 # Helper Functions Task (v0.0.1)
 
+## Installation
+
+We've tried to keep this as simple as possible to set up:
+ - Install [node.js](http://nodejs.org/)
+ - Navigate to the directory containing this project in your terminal.
+ - Type `npm install`.
+ - Run the tests with `npm run test` (you can use this to verify changes you're making aren't breaking things).
+
 ## The task
 
 Your mission is to refactor this code for the better as much as possible.
