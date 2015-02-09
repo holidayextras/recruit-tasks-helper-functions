@@ -1,13 +1,3 @@
-// --- Tests ---
-//
-// You can run these with the `npm run test` to check your changes
-// aren't affecting the function of the code.
-// Additionally, for extra points you may want to include more tests
-// of your own that cover failure modes of the helpers.js file that
-// you've fixed so we know they won't come back in future.
-//
-// -------------
-
 var assert = require('assert');
 var helpers = require('./helpers');
 
