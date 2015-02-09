@@ -20,14 +20,10 @@ You may want to consider the following:
 
 Some things you might like to know:
 
-  - Anything assigned to module.exports will be publicly available when
-    this module is used in other projects.
-  - Functions starting with an "_" will be considered private, even
-    when available via module.exports.
-  - Check out https://dorey.github.io/JavaScript-Equality-Table/ for
-    any help with "falsy" values if you're not familiar with JS.
-  - Some of the functions further down get pretty complex, try your
-    best and ask us at ...github url here... if you're having issues
-    understanding the existing bad implementations.
+  - Anything assigned to `module.exports` in `helpers.js` will be publicly available when this module is used in other projects.
+  - Functions starting with an `_` will be considered private, even when available via module.exports.
+  - Check out https://dorey.github.io/JavaScript-Equality-Table/ for any help with "falsy" values if you're not familiar with JS.
+  - Some of the functions further down in the task get pretty complex, this is intentional, try your best.
+  - There's nothing to say you can't completely change the `helpers.js` file, do what you think works best given the considerations above.
 
-Good luck, if you have any questions on the task, feel free to raise an issue on our github page at: https://github.com/holidayextras/recruit-tasks-helper-functions
+Good luck, if you have any questions on the task, feel free to raise an issue on our github page at: https://github.com/holidayextras/recruit-tasks-helper-functions . We won't give pointers on improving the code, but we will assist with understanding the existing code and clarifying any of the requirements where possible.
