@@ -10,13 +10,13 @@ We've tried to keep this as simple as possible to set up:
 
 ## The task
 
-Your mission is to refactor this code for the better as much as possible.
+Your mission is to refactor the code in `helpers.js` for the better as much as possible.
 You may want to consider the following:
 
   - Code repetition
   - Code clarity
   - Testability
-  - Ways in which this code could fail.
+  - Ways in which this code could fail that might not have been considered.
 
 Some things you might like to know:
 
@@ -30,4 +30,4 @@ Some things you might like to know:
     best and ask us at ...github url here... if you're having issues
     understanding the existing bad implementations.
 
-Good luck!
+Good luck, if you have any questions on the task, feel free to raise an issue on our github page at: https://github.com/holidayextras/recruit-tasks-helper-functions
