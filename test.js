@@ -48,8 +48,8 @@ describe('Helper functions', function() {
   describe("union([array])", function() {
 
     it("returns a new array which is a union of the passed in arrays", function() {
-      var expected = ["foo", "bar", "baz", "potato"];
-      assert.deepEqual(helpers.union(["foo", "bar", "baz"], ["foo", "bar"], ["foo", "bar", "potato"]), expected);
+      var expected = ["bar", "baz", "foo", "potato"];
+      assert.deepEqual(helpers.union(["foo", "bar", "baz"], ["foo", "bar"], ["foo", "bar", "potato"]).sort(), expected);
     });
 
   });
@@ -58,7 +58,7 @@ describe('Helper functions', function() {
 
     it("returns a new array which is an intersection of the passed in arrays", function() {
       var expected = [1,2,3];
-      assert.deepEqual(helpers.intersection([1,4,2,5,3,6], [3,7,2,8,1,9], [2,10,1,11,3,12]), expected);
+      assert.deepEqual(helpers.intersection([1,4,2,5,3,6], [3,7,2,8,1,9], [2,10,1,11,3,12]).sort(), expected);
     });
 
   });
