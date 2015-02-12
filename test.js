@@ -8,7 +8,7 @@ describe('Helper functions', function() {
     it("returns a new array containing values which pass the truth test", function() {
       var expected = [2,4,6,8,10];
       var test = function(number) {
-        return number % 2 == 0
+        return number % 2 == 0;
       };
       assert.deepEqual(helpers.select([1,2,3,4,5,6,7,8,9,10], test), expected);
     });
@@ -20,7 +20,7 @@ describe('Helper functions', function() {
     it("returns a new array containing values which fail the truth test", function() {
       var expected = [1,3,5,7,9];
       var test = function(number) {
-        return number % 2 == 0
+        return number % 2 == 0;
       };
       assert.deepEqual(helpers.reject([1,2,3,4,5,6,7,8,9,10], test), expected);
     });
